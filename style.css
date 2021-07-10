@@ -1,0 +1,82 @@
+.top-navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.google-logo {
+    width: 100px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.searchbar-container {
+   height: 44px;
+   display: flex;
+   align-items: center;
+   border: 1px solid #dcdcdc;;
+   padding-left: 10px;
+   padding-right: 22px;
+   margin-left: 40px;
+   border-radius: 25px;
+   max-width: 646px;
+}
+
+.searchbar-container:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.searchbar-input {
+    border: none;
+    outline: none;
+    height: 39px;
+    line-height: 39px;
+    font-size: 16px;
+    font-family: Arial;
+    margin-left: 10px;
+    opacity: 80%;
+    width: 573px;
+}
+
+.delete-text-svg {
+    width: 14px;
+    height: 14px;
+    opacity: 50%;
+}
+
+.x-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height:25px;
+    border-right: 1px solid #dcdcdc;
+    padding-right: 10px;
+}
+
+.magnifying-glass-svg {
+    width: 17px;
+    height: 17px;
+    margin-left: 15px;
+}
+
+.side-icons {
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+}
+
+.side-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: auto;
+    opacity: 80%;
+    min-width: px;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
